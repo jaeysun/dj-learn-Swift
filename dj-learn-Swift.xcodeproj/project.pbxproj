@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B42183A250F5E9B009BE5CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B421839250F5E9B009BE5CC /* AppDelegate.swift */; };
+		4B421841250F5E9B009BE5CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B42183F250F5E9B009BE5CC /* Main.storyboard */; };
+		4B421844250F5E9B009BE5CC /* dj_learn_Swift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4B421842250F5E9B009BE5CC /* dj_learn_Swift.xcdatamodeld */; };
+		4B421846250F5EA0009BE5CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B421845250F5EA0009BE5CC /* Assets.xcassets */; };
+		4B421849250F5EA0009BE5CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B421847250F5EA0009BE5CC /* LaunchScreen.storyboard */; };
+		4B421854250F5EA0009BE5CC /* dj_learn_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B421853250F5EA0009BE5CC /* dj_learn_SwiftTests.swift */; };
+		4B42185F250F5EA0009BE5CC /* dj_learn_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B42185E250F5EA0009BE5CC /* dj_learn_SwiftUITests.swift */; };
+		4B6AE0FE2519DB2F0056CAFC /* DJTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6AE0FD2519DB2F0056CAFC /* DJTabBarController.swift */; };
+		4B6AE1012519DB8A0056CAFC /* DJNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6AE1002519DB8A0056CAFC /* DJNavigationController.swift */; };
+		4B6AE1032519DBA40056CAFC /* DJViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6AE1022519DBA40056CAFC /* DJViewController.swift */; };
+		4B6AE1062519DBBB0056CAFC /* DJView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6AE1052519DBBB0056CAFC /* DJView.swift */; };
+		4B6AE1092519DBCD0056CAFC /* DJModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6AE1082519DBCD0056CAFC /* DJModel.swift */; };
+		4B6AE10D2519DC830056CAFC /* DJUIHomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6AE10C2519DC830056CAFC /* DJUIHomeController.swift */; };
+		4B6AE1112519DE400056CAFC /* DJModuleHomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6AE1102519DE400056CAFC /* DJModuleHomeController.swift */; };
+		4B6AE1152519DECD0056CAFC /* DJOthersHomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6AE1142519DECD0056CAFC /* DJOthersHomeController.swift */; };
+		4B6AE11A2519E3B20056CAFC /* DJColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6AE1192519E3B20056CAFC /* DJColorExtension.swift */; };
+		4B6AE11D2519E7170056CAFC /* DJImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6AE11C2519E7170056CAFC /* DJImageExtension.swift */; };
+		4BC0C64A251A3FA00097040D /* DJMenuItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC0C649251A3FA00097040D /* DJMenuItemCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B421850250F5EA0009BE5CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B42182E250F5E9B009BE5CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B421835250F5E9B009BE5CC;
+			remoteInfo = "dj-learn-Swift";
+		};
+		4B42185B250F5EA0009BE5CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B42182E250F5E9B009BE5CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B421835250F5E9B009BE5CC;
+			remoteInfo = "dj-learn-Swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4B421836250F5E9B009BE5CC /* dj-learn-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dj-learn-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B421839250F5E9B009BE5CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4B421840250F5E9B009BE5CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4B421843250F5E9B009BE5CC /* dj_learn_Swift.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = dj_learn_Swift.xcdatamodel; sourceTree = "<group>"; };
+		4B421845250F5EA0009BE5CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B421848250F5EA0009BE5CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4B42184A250F5EA0009BE5CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B42184F250F5EA0009BE5CC /* dj-learn-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dj-learn-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B421853250F5EA0009BE5CC /* dj_learn_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dj_learn_SwiftTests.swift; sourceTree = "<group>"; };
+		4B421855250F5EA0009BE5CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B42185A250F5EA0009BE5CC /* dj-learn-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dj-learn-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B42185E250F5EA0009BE5CC /* dj_learn_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dj_learn_SwiftUITests.swift; sourceTree = "<group>"; };
+		4B421860250F5EA0009BE5CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B6AE0FD2519DB2F0056CAFC /* DJTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJTabBarController.swift; sourceTree = "<group>"; };
+		4B6AE1002519DB8A0056CAFC /* DJNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJNavigationController.swift; sourceTree = "<group>"; };
+		4B6AE1022519DBA40056CAFC /* DJViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJViewController.swift; sourceTree = "<group>"; };
+		4B6AE1052519DBBB0056CAFC /* DJView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJView.swift; sourceTree = "<group>"; };
+		4B6AE1082519DBCD0056CAFC /* DJModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJModel.swift; sourceTree = "<group>"; };
+		4B6AE10C2519DC830056CAFC /* DJUIHomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJUIHomeController.swift; sourceTree = "<group>"; };
+		4B6AE1102519DE400056CAFC /* DJModuleHomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJModuleHomeController.swift; sourceTree = "<group>"; };
+		4B6AE1142519DECD0056CAFC /* DJOthersHomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJOthersHomeController.swift; sourceTree = "<group>"; };
+		4B6AE1192519E3B20056CAFC /* DJColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJColorExtension.swift; sourceTree = "<group>"; };
+		4B6AE11C2519E7170056CAFC /* DJImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJImageExtension.swift; sourceTree = "<group>"; };
+		4BC0C649251A3FA00097040D /* DJMenuItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJMenuItemCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B421833250F5E9B009BE5CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B42184C250F5EA0009BE5CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B421857250F5EA0009BE5CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B42182D250F5E9B009BE5CC = {
+			isa = PBXGroup;
+			children = (
+				4B421838250F5E9B009BE5CC /* dj-learn-Swift */,
+				4B421852250F5EA0009BE5CC /* dj-learn-SwiftTests */,
+				4B42185D250F5EA0009BE5CC /* dj-learn-SwiftUITests */,
+				4B421837250F5E9B009BE5CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B421837250F5E9B009BE5CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B421836250F5E9B009BE5CC /* dj-learn-Swift.app */,
+				4B42184F250F5EA0009BE5CC /* dj-learn-SwiftTests.xctest */,
+				4B42185A250F5EA0009BE5CC /* dj-learn-SwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B421838250F5E9B009BE5CC /* dj-learn-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				4B6AE0F82519DA7F0056CAFC /* Classes */,
+			);
+			path = "dj-learn-Swift";
+			sourceTree = "<group>";
+		};
+		4B421852250F5EA0009BE5CC /* dj-learn-SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				4B421853250F5EA0009BE5CC /* dj_learn_SwiftTests.swift */,
+				4B421855250F5EA0009BE5CC /* Info.plist */,
+			);
+			path = "dj-learn-SwiftTests";
+			sourceTree = "<group>";
+		};
+		4B42185D250F5EA0009BE5CC /* dj-learn-SwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4B42185E250F5EA0009BE5CC /* dj_learn_SwiftUITests.swift */,
+				4B421860250F5EA0009BE5CC /* Info.plist */,
+			);
+			path = "dj-learn-SwiftUITests";
+			sourceTree = "<group>";
+		};
+		4B6AE0F72519DA190056CAFC /* General */ = {
+			isa = PBXGroup;
+			children = (
+				4B6AE1122519DEA30056CAFC /* Others */,
+				4B6AE10E2519DE010056CAFC /* Module */,
+				4B6AE10A2519DC1D0056CAFC /* DJUI */,
+				4B6AE0FC2519DAEF0056CAFC /* Main */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		4B6AE0F82519DA7F0056CAFC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4B6AE0FA2519DAA20056CAFC /* App */,
+				4B6AE0F72519DA190056CAFC /* General */,
+				4B6AE0FB2519DAC10056CAFC /* Resources */,
+				4B6AE0F92519DA8C0056CAFC /* Expend */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4B6AE0F92519DA8C0056CAFC /* Expend */ = {
+			isa = PBXGroup;
+			children = (
+				4B6AE1182519E3780056CAFC /* Extension */,
+			);
+			path = Expend;
+			sourceTree = "<group>";
+		};
+		4B6AE0FA2519DAA20056CAFC /* App */ = {
+			isa = PBXGroup;
+			children = (
+				4B421847250F5EA0009BE5CC /* LaunchScreen.storyboard */,
+				4B42184A250F5EA0009BE5CC /* Info.plist */,
+				4B42183F250F5E9B009BE5CC /* Main.storyboard */,
+				4B421839250F5E9B009BE5CC /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		4B6AE0FB2519DAC10056CAFC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4B421845250F5EA0009BE5CC /* Assets.xcassets */,
+				4B421842250F5E9B009BE5CC /* dj_learn_Swift.xcdatamodeld */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4B6AE0FC2519DAEF0056CAFC /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				4B6AE1072519DBC00056CAFC /* Models */,
+				4B6AE1042519DBAF0056CAFC /* Views */,
+				4B6AE0FF2519DB690056CAFC /* Controllers */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		4B6AE0FF2519DB690056CAFC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4B6AE0FD2519DB2F0056CAFC /* DJTabBarController.swift */,
+				4B6AE1002519DB8A0056CAFC /* DJNavigationController.swift */,
+				4B6AE1022519DBA40056CAFC /* DJViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4B6AE1042519DBAF0056CAFC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4B6AE1052519DBBB0056CAFC /* DJView.swift */,
+				4BC0C649251A3FA00097040D /* DJMenuItemCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4B6AE1072519DBC00056CAFC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4B6AE1082519DBCD0056CAFC /* DJModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4B6AE10A2519DC1D0056CAFC /* DJUI */ = {
+			isa = PBXGroup;
+			children = (
+				4B6AE10B2519DC5D0056CAFC /* Controllers */,
+			);
+			path = DJUI;
+			sourceTree = "<group>";
+		};
+		4B6AE10B2519DC5D0056CAFC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4B6AE10C2519DC830056CAFC /* DJUIHomeController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4B6AE10E2519DE010056CAFC /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				4B6AE10F2519DE290056CAFC /* Controllers */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		4B6AE10F2519DE290056CAFC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4B6AE1102519DE400056CAFC /* DJModuleHomeController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4B6AE1122519DEA30056CAFC /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				4B6AE1132519DEB80056CAFC /* Controllers */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		4B6AE1132519DEB80056CAFC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4B6AE1142519DECD0056CAFC /* DJOthersHomeController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4B6AE1182519E3780056CAFC /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4B6AE1192519E3B20056CAFC /* DJColorExtension.swift */,
+				4B6AE11C2519E7170056CAFC /* DJImageExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B421835250F5E9B009BE5CC /* dj-learn-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B421863250F5EA0009BE5CC /* Build configuration list for PBXNativeTarget "dj-learn-Swift" */;
+			buildPhases = (
+				4B421832250F5E9B009BE5CC /* Sources */,
+				4B421833250F5E9B009BE5CC /* Frameworks */,
+				4B421834250F5E9B009BE5CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "dj-learn-Swift";
+			productName = "dj-learn-Swift";
+			productReference = 4B421836250F5E9B009BE5CC /* dj-learn-Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4B42184E250F5EA0009BE5CC /* dj-learn-SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B421866250F5EA0009BE5CC /* Build configuration list for PBXNativeTarget "dj-learn-SwiftTests" */;
+			buildPhases = (
+				4B42184B250F5EA0009BE5CC /* Sources */,
+				4B42184C250F5EA0009BE5CC /* Frameworks */,
+				4B42184D250F5EA0009BE5CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B421851250F5EA0009BE5CC /* PBXTargetDependency */,
+			);
+			name = "dj-learn-SwiftTests";
+			productName = "dj-learn-SwiftTests";
+			productReference = 4B42184F250F5EA0009BE5CC /* dj-learn-SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4B421859250F5EA0009BE5CC /* dj-learn-SwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B421869250F5EA0009BE5CC /* Build configuration list for PBXNativeTarget "dj-learn-SwiftUITests" */;
+			buildPhases = (
+				4B421856250F5EA0009BE5CC /* Sources */,
+				4B421857250F5EA0009BE5CC /* Frameworks */,
+				4B421858250F5EA0009BE5CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B42185C250F5EA0009BE5CC /* PBXTargetDependency */,
+			);
+			name = "dj-learn-SwiftUITests";
+			productName = "dj-learn-SwiftUITests";
+			productReference = 4B42185A250F5EA0009BE5CC /* dj-learn-SwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B42182E250F5E9B009BE5CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = S.J;
+				TargetAttributes = {
+					4B421835250F5E9B009BE5CC = {
+						CreatedOnToolsVersion = 11.7;
+					};
+					4B42184E250F5EA0009BE5CC = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = 4B421835250F5E9B009BE5CC;
+					};
+					4B421859250F5EA0009BE5CC = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = 4B421835250F5E9B009BE5CC;
+					};
+				};
+			};
+			buildConfigurationList = 4B421831250F5E9B009BE5CC /* Build configuration list for PBXProject "dj-learn-Swift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B42182D250F5E9B009BE5CC;
+			productRefGroup = 4B421837250F5E9B009BE5CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B421835250F5E9B009BE5CC /* dj-learn-Swift */,
+				4B42184E250F5EA0009BE5CC /* dj-learn-SwiftTests */,
+				4B421859250F5EA0009BE5CC /* dj-learn-SwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B421834250F5E9B009BE5CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B421849250F5EA0009BE5CC /* LaunchScreen.storyboard in Resources */,
+				4B421846250F5EA0009BE5CC /* Assets.xcassets in Resources */,
+				4B421841250F5E9B009BE5CC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B42184D250F5EA0009BE5CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B421858250F5EA0009BE5CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B421832250F5E9B009BE5CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B6AE1062519DBBB0056CAFC /* DJView.swift in Sources */,
+				4B6AE0FE2519DB2F0056CAFC /* DJTabBarController.swift in Sources */,
+				4B6AE11A2519E3B20056CAFC /* DJColorExtension.swift in Sources */,
+				4B6AE11D2519E7170056CAFC /* DJImageExtension.swift in Sources */,
+				4B6AE1092519DBCD0056CAFC /* DJModel.swift in Sources */,
+				4B6AE1012519DB8A0056CAFC /* DJNavigationController.swift in Sources */,
+				4B6AE1112519DE400056CAFC /* DJModuleHomeController.swift in Sources */,
+				4B6AE10D2519DC830056CAFC /* DJUIHomeController.swift in Sources */,
+				4B42183A250F5E9B009BE5CC /* AppDelegate.swift in Sources */,
+				4BC0C64A251A3FA00097040D /* DJMenuItemCell.swift in Sources */,
+				4B6AE1032519DBA40056CAFC /* DJViewController.swift in Sources */,
+				4B6AE1152519DECD0056CAFC /* DJOthersHomeController.swift in Sources */,
+				4B421844250F5E9B009BE5CC /* dj_learn_Swift.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B42184B250F5EA0009BE5CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B421854250F5EA0009BE5CC /* dj_learn_SwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B421856250F5EA0009BE5CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B42185F250F5EA0009BE5CC /* dj_learn_SwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B421851250F5EA0009BE5CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B421835250F5E9B009BE5CC /* dj-learn-Swift */;
+			targetProxy = 4B421850250F5EA0009BE5CC /* PBXContainerItemProxy */;
+		};
+		4B42185C250F5EA0009BE5CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B421835250F5E9B009BE5CC /* dj-learn-Swift */;
+			targetProxy = 4B42185B250F5EA0009BE5CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4B42183F250F5E9B009BE5CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B421840250F5E9B009BE5CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4B421847250F5EA0009BE5CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B421848250F5EA0009BE5CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B421861250F5EA0009BE5CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4B421862250F5EA0009BE5CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B421864250F5EA0009BE5CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2020091401;
+				INFOPLIST_FILE = "$(SRCROOT)/dj-learn-Swift/Classes/App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jaesun.dj-learn-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B421865250F5EA0009BE5CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2020091401;
+				INFOPLIST_FILE = "$(SRCROOT)/dj-learn-Swift/Classes/App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jaesun.dj-learn-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4B421867250F5EA0009BE5CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "dj-learn-SwiftTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jaesun.dj-learn-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dj-learn-Swift.app/dj-learn-Swift";
+			};
+			name = Debug;
+		};
+		4B421868250F5EA0009BE5CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "dj-learn-SwiftTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jaesun.dj-learn-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dj-learn-Swift.app/dj-learn-Swift";
+			};
+			name = Release;
+		};
+		4B42186A250F5EA0009BE5CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "dj-learn-SwiftUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jaesun.dj-learn-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "dj-learn-Swift";
+			};
+			name = Debug;
+		};
+		4B42186B250F5EA0009BE5CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "dj-learn-SwiftUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jaesun.dj-learn-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "dj-learn-Swift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B421831250F5E9B009BE5CC /* Build configuration list for PBXProject "dj-learn-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B421861250F5EA0009BE5CC /* Debug */,
+				4B421862250F5EA0009BE5CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B421863250F5EA0009BE5CC /* Build configuration list for PBXNativeTarget "dj-learn-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B421864250F5EA0009BE5CC /* Debug */,
+				4B421865250F5EA0009BE5CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B421866250F5EA0009BE5CC /* Build configuration list for PBXNativeTarget "dj-learn-SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B421867250F5EA0009BE5CC /* Debug */,
+				4B421868250F5EA0009BE5CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B421869250F5EA0009BE5CC /* Build configuration list for PBXNativeTarget "dj-learn-SwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B42186A250F5EA0009BE5CC /* Debug */,
+				4B42186B250F5EA0009BE5CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4B421842250F5E9B009BE5CC /* dj_learn_Swift.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4B421843250F5E9B009BE5CC /* dj_learn_Swift.xcdatamodel */,
+			);
+			currentVersion = 4B421843250F5E9B009BE5CC /* dj_learn_Swift.xcdatamodel */;
+			path = dj_learn_Swift.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4B42182E250F5E9B009BE5CC /* Project object */;
+}
