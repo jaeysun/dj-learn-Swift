@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -25,6 +25,13 @@
 		4B6AE11A2519E3B20056CAFC /* DJColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6AE1192519E3B20056CAFC /* DJColorExtension.swift */; };
 		4B6AE11D2519E7170056CAFC /* DJImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6AE11C2519E7170056CAFC /* DJImageExtension.swift */; };
 		4BC0C64A251A3FA00097040D /* DJMenuItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC0C649251A3FA00097040D /* DJMenuItemCell.swift */; };
+		4BC0C64E251A45B70097040D /* DJAppThemUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC0C64D251A45B70097040D /* DJAppThemUtil.swift */; };
+		4BC0C650251A45C10097040D /* DJAppUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC0C64F251A45C10097040D /* DJAppUtil.swift */; };
+		4BC0C652251A45CC0097040D /* DJDataUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC0C651251A45CC0097040D /* DJDataUtil.swift */; };
+		4BC0C654251A47CF0097040D /* DJMenuItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC0C653251A47CF0097040D /* DJMenuItemModel.swift */; };
+		5ADC0ACF67B055AB84608E1D /* Pods_dj_learn_Swift_dj_learn_SwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E004CAA0CB491580EB61D3AE /* Pods_dj_learn_Swift_dj_learn_SwiftUITests.framework */; };
+		C8D4FD7F3823F47430B5BD84 /* Pods_dj_learn_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 658F7246AB4E6038C2156E30 /* Pods_dj_learn_Swift.framework */; };
+		DB767116EDAC4F84C2C0B2C6 /* Pods_dj_learn_SwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908D940A85C725DD540238D8 /* Pods_dj_learn_SwiftTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +52,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2413D1CFDBC37D8AD22D7032 /* Pods-dj-learn-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dj-learn-Swift.debug.xcconfig"; path = "Target Support Files/Pods-dj-learn-Swift/Pods-dj-learn-Swift.debug.xcconfig"; sourceTree = "<group>"; };
+		2C059D2CD44919805E9C1204 /* Pods-dj-learn-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dj-learn-Swift.release.xcconfig"; path = "Target Support Files/Pods-dj-learn-Swift/Pods-dj-learn-Swift.release.xcconfig"; sourceTree = "<group>"; };
 		4B421836250F5E9B009BE5CC /* dj-learn-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dj-learn-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B421839250F5E9B009BE5CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4B421840250F5E9B009BE5CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -69,6 +78,18 @@
 		4B6AE1192519E3B20056CAFC /* DJColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJColorExtension.swift; sourceTree = "<group>"; };
 		4B6AE11C2519E7170056CAFC /* DJImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJImageExtension.swift; sourceTree = "<group>"; };
 		4BC0C649251A3FA00097040D /* DJMenuItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJMenuItemCell.swift; sourceTree = "<group>"; };
+		4BC0C64D251A45B70097040D /* DJAppThemUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJAppThemUtil.swift; sourceTree = "<group>"; };
+		4BC0C64F251A45C10097040D /* DJAppUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJAppUtil.swift; sourceTree = "<group>"; };
+		4BC0C651251A45CC0097040D /* DJDataUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJDataUtil.swift; sourceTree = "<group>"; };
+		4BC0C653251A47CF0097040D /* DJMenuItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJMenuItemModel.swift; sourceTree = "<group>"; };
+		4BC0C656251A48A60097040D /* DJApp.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJApp.pch; sourceTree = "<group>"; };
+		658F7246AB4E6038C2156E30 /* Pods_dj_learn_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dj_learn_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		908D940A85C725DD540238D8 /* Pods_dj_learn_SwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dj_learn_SwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		994BF32CAD9DE9CAC3939C6E /* Pods-dj-learn-SwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dj-learn-SwiftTests.release.xcconfig"; path = "Target Support Files/Pods-dj-learn-SwiftTests/Pods-dj-learn-SwiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		9DDD391BA9273AEB060BE2B2 /* Pods-dj-learn-SwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dj-learn-SwiftTests.debug.xcconfig"; path = "Target Support Files/Pods-dj-learn-SwiftTests/Pods-dj-learn-SwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A32F54ED11A3D249670BB564 /* Pods-dj-learn-Swift-dj-learn-SwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dj-learn-Swift-dj-learn-SwiftUITests.debug.xcconfig"; path = "Target Support Files/Pods-dj-learn-Swift-dj-learn-SwiftUITests/Pods-dj-learn-Swift-dj-learn-SwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CF8E8EC73A2E87DD1313F7BC /* Pods-dj-learn-Swift-dj-learn-SwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dj-learn-Swift-dj-learn-SwiftUITests.release.xcconfig"; path = "Target Support Files/Pods-dj-learn-Swift-dj-learn-SwiftUITests/Pods-dj-learn-Swift-dj-learn-SwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E004CAA0CB491580EB61D3AE /* Pods_dj_learn_Swift_dj_learn_SwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dj_learn_Swift_dj_learn_SwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8D4FD7F3823F47430B5BD84 /* Pods_dj_learn_Swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB767116EDAC4F84C2C0B2C6 /* Pods_dj_learn_SwiftTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,12 +113,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5ADC0ACF67B055AB84608E1D /* Pods_dj_learn_Swift_dj_learn_SwiftUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B1BF21C6CDDC9F7F00CAA36 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2413D1CFDBC37D8AD22D7032 /* Pods-dj-learn-Swift.debug.xcconfig */,
+				2C059D2CD44919805E9C1204 /* Pods-dj-learn-Swift.release.xcconfig */,
+				A32F54ED11A3D249670BB564 /* Pods-dj-learn-Swift-dj-learn-SwiftUITests.debug.xcconfig */,
+				CF8E8EC73A2E87DD1313F7BC /* Pods-dj-learn-Swift-dj-learn-SwiftUITests.release.xcconfig */,
+				9DDD391BA9273AEB060BE2B2 /* Pods-dj-learn-SwiftTests.debug.xcconfig */,
+				994BF32CAD9DE9CAC3939C6E /* Pods-dj-learn-SwiftTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		4B42182D250F5E9B009BE5CC = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +140,8 @@
 				4B421852250F5EA0009BE5CC /* dj-learn-SwiftTests */,
 				4B42185D250F5EA0009BE5CC /* dj-learn-SwiftUITests */,
 				4B421837250F5E9B009BE5CC /* Products */,
+				1B1BF21C6CDDC9F7F00CAA36 /* Pods */,
+				C03C6CD40C9FF4A579689C84 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -156,10 +195,10 @@
 		4B6AE0F82519DA7F0056CAFC /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				4B6AE0F92519DA8C0056CAFC /* Expend */,
 				4B6AE0FA2519DAA20056CAFC /* App */,
 				4B6AE0F72519DA190056CAFC /* General */,
 				4B6AE0FB2519DAC10056CAFC /* Resources */,
-				4B6AE0F92519DA8C0056CAFC /* Expend */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -167,6 +206,8 @@
 		4B6AE0F92519DA8C0056CAFC /* Expend */ = {
 			isa = PBXGroup;
 			children = (
+				4BC0C655251A48490097040D /* Macro */,
+				4BC0C64C251A45950097040D /* Utils */,
 				4B6AE1182519E3780056CAFC /* Extension */,
 			);
 			path = Expend;
@@ -225,6 +266,7 @@
 			isa = PBXGroup;
 			children = (
 				4B6AE1082519DBCD0056CAFC /* DJModel.swift */,
+				4BC0C653251A47CF0097040D /* DJMenuItemModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -286,6 +328,34 @@
 			path = Extension;
 			sourceTree = "<group>";
 		};
+		4BC0C64C251A45950097040D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				4BC0C64D251A45B70097040D /* DJAppThemUtil.swift */,
+				4BC0C64F251A45C10097040D /* DJAppUtil.swift */,
+				4BC0C651251A45CC0097040D /* DJDataUtil.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		4BC0C655251A48490097040D /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				4BC0C656251A48A60097040D /* DJApp.pch */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		C03C6CD40C9FF4A579689C84 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				658F7246AB4E6038C2156E30 /* Pods_dj_learn_Swift.framework */,
+				E004CAA0CB491580EB61D3AE /* Pods_dj_learn_Swift_dj_learn_SwiftUITests.framework */,
+				908D940A85C725DD540238D8 /* Pods_dj_learn_SwiftTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -293,9 +363,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4B421863250F5EA0009BE5CC /* Build configuration list for PBXNativeTarget "dj-learn-Swift" */;
 			buildPhases = (
+				C7AA96B55DCA9482B64947D6 /* [CP] Check Pods Manifest.lock */,
 				4B421832250F5E9B009BE5CC /* Sources */,
 				4B421833250F5E9B009BE5CC /* Frameworks */,
 				4B421834250F5E9B009BE5CC /* Resources */,
+				38E2DA908A3583ECE567DB02 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -310,6 +382,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4B421866250F5EA0009BE5CC /* Build configuration list for PBXNativeTarget "dj-learn-SwiftTests" */;
 			buildPhases = (
+				A316F9C78B060918921A85AA /* [CP] Check Pods Manifest.lock */,
 				4B42184B250F5EA0009BE5CC /* Sources */,
 				4B42184C250F5EA0009BE5CC /* Frameworks */,
 				4B42184D250F5EA0009BE5CC /* Resources */,
@@ -328,9 +401,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4B421869250F5EA0009BE5CC /* Build configuration list for PBXNativeTarget "dj-learn-SwiftUITests" */;
 			buildPhases = (
+				9E625EF2EBC75D0C33E2A183 /* [CP] Check Pods Manifest.lock */,
 				4B421856250F5EA0009BE5CC /* Sources */,
 				4B421857250F5EA0009BE5CC /* Frameworks */,
 				4B421858250F5EA0009BE5CC /* Resources */,
+				4A59B899AA75DE9D259DD189 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -412,15 +487,121 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		38E2DA908A3583ECE567DB02 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-dj-learn-Swift/Pods-dj-learn-Swift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-dj-learn-Swift/Pods-dj-learn-Swift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-dj-learn-Swift/Pods-dj-learn-Swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A59B899AA75DE9D259DD189 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-dj-learn-Swift-dj-learn-SwiftUITests/Pods-dj-learn-Swift-dj-learn-SwiftUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-dj-learn-Swift-dj-learn-SwiftUITests/Pods-dj-learn-Swift-dj-learn-SwiftUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-dj-learn-Swift-dj-learn-SwiftUITests/Pods-dj-learn-Swift-dj-learn-SwiftUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E625EF2EBC75D0C33E2A183 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-dj-learn-Swift-dj-learn-SwiftUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A316F9C78B060918921A85AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-dj-learn-SwiftTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7AA96B55DCA9482B64947D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-dj-learn-Swift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4B421832250F5E9B009BE5CC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4B6AE1062519DBBB0056CAFC /* DJView.swift in Sources */,
+				4BC0C652251A45CC0097040D /* DJDataUtil.swift in Sources */,
 				4B6AE0FE2519DB2F0056CAFC /* DJTabBarController.swift in Sources */,
 				4B6AE11A2519E3B20056CAFC /* DJColorExtension.swift in Sources */,
+				4BC0C64E251A45B70097040D /* DJAppThemUtil.swift in Sources */,
 				4B6AE11D2519E7170056CAFC /* DJImageExtension.swift in Sources */,
+				4BC0C650251A45C10097040D /* DJAppUtil.swift in Sources */,
 				4B6AE1092519DBCD0056CAFC /* DJModel.swift in Sources */,
 				4B6AE1012519DB8A0056CAFC /* DJNavigationController.swift in Sources */,
 				4B6AE1112519DE400056CAFC /* DJModuleHomeController.swift in Sources */,
@@ -429,6 +610,7 @@
 				4BC0C64A251A3FA00097040D /* DJMenuItemCell.swift in Sources */,
 				4B6AE1032519DBA40056CAFC /* DJViewController.swift in Sources */,
 				4B6AE1152519DECD0056CAFC /* DJOthersHomeController.swift in Sources */,
+				4BC0C654251A47CF0097040D /* DJMenuItemModel.swift in Sources */,
 				4B421844250F5E9B009BE5CC /* dj_learn_Swift.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -600,10 +782,13 @@
 		};
 		4B421864250F5EA0009BE5CC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2413D1CFDBC37D8AD22D7032 /* Pods-dj-learn-Swift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 2020091401;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/dj-learn-Swift/Classes/Expend/Macro/DJApp.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/dj-learn-Swift/Classes/App/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -620,10 +805,13 @@
 		};
 		4B421865250F5EA0009BE5CC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C059D2CD44919805E9C1204 /* Pods-dj-learn-Swift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 2020091401;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/dj-learn-Swift/Classes/Expend/Macro/DJApp.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/dj-learn-Swift/Classes/App/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -640,6 +828,7 @@
 		};
 		4B421867250F5EA0009BE5CC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DDD391BA9273AEB060BE2B2 /* Pods-dj-learn-SwiftTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -661,6 +850,7 @@
 		};
 		4B421868250F5EA0009BE5CC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 994BF32CAD9DE9CAC3939C6E /* Pods-dj-learn-SwiftTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -682,6 +872,7 @@
 		};
 		4B42186A250F5EA0009BE5CC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A32F54ED11A3D249670BB564 /* Pods-dj-learn-Swift-dj-learn-SwiftUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -701,6 +892,7 @@
 		};
 		4B42186B250F5EA0009BE5CC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF8E8EC73A2E87DD1313F7BC /* Pods-dj-learn-Swift-dj-learn-SwiftUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
