@@ -9,5 +9,10 @@
 import UIKit
 
 class DJAppThemUtil: NSObject {
-
+    // 颜色
+    class func themRedColor() -> UIColor {
+        return UIColor.init(hex: 0xC83C23, alpha: 1)
+    }
+    
+    
 }

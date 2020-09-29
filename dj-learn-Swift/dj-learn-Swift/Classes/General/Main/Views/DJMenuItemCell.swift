@@ -10,6 +10,12 @@ import UIKit
 import SnapKit
 class DJMenuItemCell: UICollectionViewCell {
     
+    var model:DJMenuItemModel? {
+        didSet {
+            self.titleLabel.text = model?.title
+            self.iconView.image = UIImage.init(named: model?.imgName ?? "")
+        }
+    }
     var iconView: UIImageView!
     var titleLabel: UILabel!
     
@@ -24,13 +30,13 @@ class DJMenuItemCell: UICollectionViewCell {
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-    
+        
     // MARK: - 初始化布局
     func configSubviews() {
         // 图片
         self.iconView = UIImageView.init()
         self.iconView.contentMode = .scaleAspectFit
-        self.iconView.image = UIImage.init(named: "ic_tabbar_other_sel")
+        self.iconView.image = UIImage.init(named: "icon_uilabel")
         self.contentView.addSubview(self.iconView)
         self.iconView.snp.makeConstraints { (make) in
             make.width.equalTo(self.contentView).multipliedBy(0.5)
@@ -42,7 +48,7 @@ class DJMenuItemCell: UICollectionViewCell {
         // 标题
         self.titleLabel = UILabel.init()
         self.titleLabel.font = UIFont.systemFont(ofSize: 15.0)
-        self.titleLabel.textColor = UIColor.black
+        self.titleLabel.textColor = DJAppThemUtil.themRedColor()
         self.titleLabel.text = "UIButton"
         self.contentView.addSubview(self.titleLabel)
         self.titleLabel.snp.makeConstraints { (make) in
@@ -50,5 +56,6 @@ class DJMenuItemCell: UICollectionViewCell {
             make.centerX.equalTo(self.contentView)
         }
     }
+    
 }
 

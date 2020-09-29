@@ -24,6 +24,7 @@
 		4B6AE1152519DECD0056CAFC /* DJOthersHomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6AE1142519DECD0056CAFC /* DJOthersHomeController.swift */; };
 		4B6AE11A2519E3B20056CAFC /* DJColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6AE1192519E3B20056CAFC /* DJColorExtension.swift */; };
 		4B6AE11D2519E7170056CAFC /* DJImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6AE11C2519E7170056CAFC /* DJImageExtension.swift */; };
+		4BB7761025209626004D7C0B /* DJUILabelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB7760F25209626004D7C0B /* DJUILabelController.swift */; };
 		4BC0C64A251A3FA00097040D /* DJMenuItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC0C649251A3FA00097040D /* DJMenuItemCell.swift */; };
 		4BC0C64E251A45B70097040D /* DJAppThemUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC0C64D251A45B70097040D /* DJAppThemUtil.swift */; };
 		4BC0C650251A45C10097040D /* DJAppUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC0C64F251A45C10097040D /* DJAppUtil.swift */; };
@@ -77,6 +78,7 @@
 		4B6AE1142519DECD0056CAFC /* DJOthersHomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJOthersHomeController.swift; sourceTree = "<group>"; };
 		4B6AE1192519E3B20056CAFC /* DJColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJColorExtension.swift; sourceTree = "<group>"; };
 		4B6AE11C2519E7170056CAFC /* DJImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJImageExtension.swift; sourceTree = "<group>"; };
+		4BB7760F25209626004D7C0B /* DJUILabelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJUILabelController.swift; sourceTree = "<group>"; };
 		4BC0C649251A3FA00097040D /* DJMenuItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJMenuItemCell.swift; sourceTree = "<group>"; };
 		4BC0C64D251A45B70097040D /* DJAppThemUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJAppThemUtil.swift; sourceTree = "<group>"; };
 		4BC0C64F251A45C10097040D /* DJAppUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJAppUtil.swift; sourceTree = "<group>"; };
@@ -283,6 +285,7 @@
 			isa = PBXGroup;
 			children = (
 				4B6AE10C2519DC830056CAFC /* DJUIHomeController.swift */,
+				4BB7760F25209626004D7C0B /* DJUILabelController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -601,6 +604,7 @@
 				4B6AE11A2519E3B20056CAFC /* DJColorExtension.swift in Sources */,
 				4BC0C64E251A45B70097040D /* DJAppThemUtil.swift in Sources */,
 				4B6AE11D2519E7170056CAFC /* DJImageExtension.swift in Sources */,
+				4BB7761025209626004D7C0B /* DJUILabelController.swift in Sources */,
 				4BC0C650251A45C10097040D /* DJAppUtil.swift in Sources */,
 				4B6AE1092519DBCD0056CAFC /* DJModel.swift in Sources */,
 				4B6AE1012519DB8A0056CAFC /* DJNavigationController.swift in Sources */,
