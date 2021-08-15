@@ -14,6 +14,7 @@
 		4B421849250F5EA0009BE5CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B421847250F5EA0009BE5CC /* LaunchScreen.storyboard */; };
 		4B421854250F5EA0009BE5CC /* dj_learn_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B421853250F5EA0009BE5CC /* dj_learn_SwiftTests.swift */; };
 		4B42185F250F5EA0009BE5CC /* dj_learn_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B42185E250F5EA0009BE5CC /* dj_learn_SwiftUITests.swift */; };
+		4B5CF65526C6197F004A8593 /* DJTimePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5CF65426C6197F004A8593 /* DJTimePickerController.swift */; };
 		4B6AE0FE2519DB2F0056CAFC /* DJTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6AE0FD2519DB2F0056CAFC /* DJTabBarController.swift */; };
 		4B6AE1012519DB8A0056CAFC /* DJNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6AE1002519DB8A0056CAFC /* DJNavigationController.swift */; };
 		4B6AE1032519DBA40056CAFC /* DJViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6AE1022519DBA40056CAFC /* DJViewController.swift */; };
@@ -25,11 +26,17 @@
 		4B6AE11A2519E3B20056CAFC /* DJColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6AE1192519E3B20056CAFC /* DJColorExtension.swift */; };
 		4B6AE11D2519E7170056CAFC /* DJImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6AE11C2519E7170056CAFC /* DJImageExtension.swift */; };
 		4BB7761025209626004D7C0B /* DJUILabelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB7760F25209626004D7C0B /* DJUILabelController.swift */; };
+		4BBC4DAE26C15D8E008EFEB5 /* DJFunctionDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBC4DAD26C15D8E008EFEB5 /* DJFunctionDemo.swift */; };
+		4BBC4DB026C16895008EFEB5 /* DJClosureDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBC4DAF26C16895008EFEB5 /* DJClosureDemo.swift */; };
 		4BC0C64A251A3FA00097040D /* DJMenuItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC0C649251A3FA00097040D /* DJMenuItemCell.swift */; };
 		4BC0C64E251A45B70097040D /* DJAppThemUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC0C64D251A45B70097040D /* DJAppThemUtil.swift */; };
 		4BC0C650251A45C10097040D /* DJAppUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC0C64F251A45C10097040D /* DJAppUtil.swift */; };
 		4BC0C652251A45CC0097040D /* DJDataUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC0C651251A45CC0097040D /* DJDataUtil.swift */; };
 		4BC0C654251A47CF0097040D /* DJMenuItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC0C653251A47CF0097040D /* DJMenuItemModel.swift */; };
+		4BD8CB5026C5277100E01EF6 /* DJSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD8CB4F26C5277100E01EF6 /* DJSwitch.swift */; };
+		4BF7A14B26C2BB9200D13CFE /* DJClassInheritDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF7A14A26C2BB9200D13CFE /* DJClassInheritDemo.swift */; };
+		4BF870E826C01B8B0079AB09 /* DJFoundationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF870E726C01B8B0079AB09 /* DJFoundationController.swift */; };
+		4BF870EA26C01BA30079AB09 /* DJOptionalDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF870E926C01BA30079AB09 /* DJOptionalDemo.swift */; };
 		5ADC0ACF67B055AB84608E1D /* Pods_dj_learn_Swift_dj_learn_SwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E004CAA0CB491580EB61D3AE /* Pods_dj_learn_Swift_dj_learn_SwiftUITests.framework */; };
 		C8D4FD7F3823F47430B5BD84 /* Pods_dj_learn_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 658F7246AB4E6038C2156E30 /* Pods_dj_learn_Swift.framework */; };
 		DB767116EDAC4F84C2C0B2C6 /* Pods_dj_learn_SwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908D940A85C725DD540238D8 /* Pods_dj_learn_SwiftTests.framework */; };
@@ -68,6 +75,7 @@
 		4B42185A250F5EA0009BE5CC /* dj-learn-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dj-learn-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B42185E250F5EA0009BE5CC /* dj_learn_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dj_learn_SwiftUITests.swift; sourceTree = "<group>"; };
 		4B421860250F5EA0009BE5CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B5CF65426C6197F004A8593 /* DJTimePickerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJTimePickerController.swift; sourceTree = "<group>"; };
 		4B6AE0FD2519DB2F0056CAFC /* DJTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJTabBarController.swift; sourceTree = "<group>"; };
 		4B6AE1002519DB8A0056CAFC /* DJNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJNavigationController.swift; sourceTree = "<group>"; };
 		4B6AE1022519DBA40056CAFC /* DJViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJViewController.swift; sourceTree = "<group>"; };
@@ -79,12 +87,18 @@
 		4B6AE1192519E3B20056CAFC /* DJColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJColorExtension.swift; sourceTree = "<group>"; };
 		4B6AE11C2519E7170056CAFC /* DJImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJImageExtension.swift; sourceTree = "<group>"; };
 		4BB7760F25209626004D7C0B /* DJUILabelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJUILabelController.swift; sourceTree = "<group>"; };
+		4BBC4DAD26C15D8E008EFEB5 /* DJFunctionDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJFunctionDemo.swift; sourceTree = "<group>"; };
+		4BBC4DAF26C16895008EFEB5 /* DJClosureDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJClosureDemo.swift; sourceTree = "<group>"; };
 		4BC0C649251A3FA00097040D /* DJMenuItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJMenuItemCell.swift; sourceTree = "<group>"; };
 		4BC0C64D251A45B70097040D /* DJAppThemUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJAppThemUtil.swift; sourceTree = "<group>"; };
 		4BC0C64F251A45C10097040D /* DJAppUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJAppUtil.swift; sourceTree = "<group>"; };
 		4BC0C651251A45CC0097040D /* DJDataUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJDataUtil.swift; sourceTree = "<group>"; };
 		4BC0C653251A47CF0097040D /* DJMenuItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJMenuItemModel.swift; sourceTree = "<group>"; };
 		4BC0C656251A48A60097040D /* DJApp.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJApp.pch; sourceTree = "<group>"; };
+		4BD8CB4F26C5277100E01EF6 /* DJSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJSwitch.swift; sourceTree = "<group>"; };
+		4BF7A14A26C2BB9200D13CFE /* DJClassInheritDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJClassInheritDemo.swift; sourceTree = "<group>"; };
+		4BF870E726C01B8B0079AB09 /* DJFoundationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJFoundationController.swift; sourceTree = "<group>"; };
+		4BF870E926C01BA30079AB09 /* DJOptionalDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJOptionalDemo.swift; sourceTree = "<group>"; };
 		658F7246AB4E6038C2156E30 /* Pods_dj_learn_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dj_learn_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		908D940A85C725DD540238D8 /* Pods_dj_learn_SwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dj_learn_SwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		994BF32CAD9DE9CAC3939C6E /* Pods-dj-learn-SwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dj-learn-SwiftTests.release.xcconfig"; path = "Target Support Files/Pods-dj-learn-SwiftTests/Pods-dj-learn-SwiftTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -186,6 +200,7 @@
 		4B6AE0F72519DA190056CAFC /* General */ = {
 			isa = PBXGroup;
 			children = (
+				4BF870E626C01B620079AB09 /* Fundation */,
 				4B6AE1122519DEA30056CAFC /* Others */,
 				4B6AE10E2519DE010056CAFC /* Module */,
 				4B6AE10A2519DC1D0056CAFC /* DJUI */,
@@ -276,6 +291,7 @@
 		4B6AE10A2519DC1D0056CAFC /* DJUI */ = {
 			isa = PBXGroup;
 			children = (
+				4BD8CB4D26C5274000E01EF6 /* Views */,
 				4B6AE10B2519DC5D0056CAFC /* Controllers */,
 			);
 			path = DJUI;
@@ -286,6 +302,7 @@
 			children = (
 				4B6AE10C2519DC830056CAFC /* DJUIHomeController.swift */,
 				4BB7760F25209626004D7C0B /* DJUILabelController.swift */,
+				4B5CF65426C6197F004A8593 /* DJTimePickerController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -347,6 +364,34 @@
 				4BC0C656251A48A60097040D /* DJApp.pch */,
 			);
 			path = Macro;
+			sourceTree = "<group>";
+		};
+		4BD8CB4D26C5274000E01EF6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4BD8CB4E26C5274600E01EF6 /* DJSwitch */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4BD8CB4E26C5274600E01EF6 /* DJSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				4BD8CB4F26C5277100E01EF6 /* DJSwitch.swift */,
+			);
+			path = DJSwitch;
+			sourceTree = "<group>";
+		};
+		4BF870E626C01B620079AB09 /* Fundation */ = {
+			isa = PBXGroup;
+			children = (
+				4BF870E726C01B8B0079AB09 /* DJFoundationController.swift */,
+				4BF870E926C01BA30079AB09 /* DJOptionalDemo.swift */,
+				4BBC4DAD26C15D8E008EFEB5 /* DJFunctionDemo.swift */,
+				4BBC4DAF26C16895008EFEB5 /* DJClosureDemo.swift */,
+				4BF7A14A26C2BB9200D13CFE /* DJClassInheritDemo.swift */,
+			);
+			path = Fundation;
 			sourceTree = "<group>";
 		};
 		C03C6CD40C9FF4A579689C84 /* Frameworks */ = {
@@ -598,16 +643,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BF870E826C01B8B0079AB09 /* DJFoundationController.swift in Sources */,
 				4B6AE1062519DBBB0056CAFC /* DJView.swift in Sources */,
 				4BC0C652251A45CC0097040D /* DJDataUtil.swift in Sources */,
+				4BF7A14B26C2BB9200D13CFE /* DJClassInheritDemo.swift in Sources */,
 				4B6AE0FE2519DB2F0056CAFC /* DJTabBarController.swift in Sources */,
+				4BF870EA26C01BA30079AB09 /* DJOptionalDemo.swift in Sources */,
 				4B6AE11A2519E3B20056CAFC /* DJColorExtension.swift in Sources */,
+				4BBC4DB026C16895008EFEB5 /* DJClosureDemo.swift in Sources */,
 				4BC0C64E251A45B70097040D /* DJAppThemUtil.swift in Sources */,
+				4BD8CB5026C5277100E01EF6 /* DJSwitch.swift in Sources */,
 				4B6AE11D2519E7170056CAFC /* DJImageExtension.swift in Sources */,
 				4BB7761025209626004D7C0B /* DJUILabelController.swift in Sources */,
 				4BC0C650251A45C10097040D /* DJAppUtil.swift in Sources */,
 				4B6AE1092519DBCD0056CAFC /* DJModel.swift in Sources */,
 				4B6AE1012519DB8A0056CAFC /* DJNavigationController.swift in Sources */,
+				4BBC4DAE26C15D8E008EFEB5 /* DJFunctionDemo.swift in Sources */,
 				4B6AE1112519DE400056CAFC /* DJModuleHomeController.swift in Sources */,
 				4B6AE10D2519DC830056CAFC /* DJUIHomeController.swift in Sources */,
 				4B42183A250F5E9B009BE5CC /* AppDelegate.swift in Sources */,
@@ -616,6 +667,7 @@
 				4B6AE1152519DECD0056CAFC /* DJOthersHomeController.swift in Sources */,
 				4BC0C654251A47CF0097040D /* DJMenuItemModel.swift in Sources */,
 				4B421844250F5E9B009BE5CC /* dj_learn_Swift.xcdatamodeld in Sources */,
+				4B5CF65526C6197F004A8593 /* DJTimePickerController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

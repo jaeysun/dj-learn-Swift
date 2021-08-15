@@ -9,12 +9,22 @@
 import UIKit
 import CoreData
 
+
+enum Barcode {
+    case upc(Int, Int, Int, Int)
+    case qrCode(String)
+}
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
     
     var window: UIWindow?
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        let code1 = Barcode.upc(10, 10, 10, 10)
+        let code2 = Barcode.qrCode("这是一个二维码")
+    
+        
         self.window = UIWindow.init(frame: UIScreen.main.bounds)
         self.window?.rootViewController = DJTabBarController.init()
         self.window?.makeKeyAndVisible()
