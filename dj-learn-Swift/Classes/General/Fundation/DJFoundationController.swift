@@ -74,7 +74,6 @@ class DJFoundationController: DJViewController {
             maker.size.equalTo(CGSize(width: 100, height: 40))
         }
         button.addTarget(self, action: #selector(buttonAction(_:)), for: .touchUpInside)
-        
     }
     
     @objc fileprivate func buttonAction(_ sender: UIButton) {
