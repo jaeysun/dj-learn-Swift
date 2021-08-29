@@ -66,6 +66,17 @@ class DJFoundationController: DJViewController {
         // 将字符串 ”liu“ 转化为 () -> String 类型的闭包
 //        DJClosureDemo.serve(customer: "liu")
         
+        let input = SJInputView.init(limit: 4)
+        input.font = UIFont.boldSystemFont(ofSize: 36)
+        input.becomeFirstResponder()
+        self.view.addSubview(input)
+        input.snp.makeConstraints { make in
+            make.top.equalTo(self.view).offset(100)
+            make.left.equalTo(self.view).offset(16)
+            make.right.equalTo(self.view).offset(-16)
+            make.height.equalTo(200)
+        }
+        
         let button: UIButton =  UIButton(type: .system)
         button.backgroundColor = UIColor.black
         self.view.addSubview(button)
@@ -77,7 +88,7 @@ class DJFoundationController: DJViewController {
     }
     
     @objc fileprivate func buttonAction(_ sender: UIButton) {
-        let picker = DJTimePickerController(mode: .hourMinute)
+        let picker = WPTimePickerController(mode: .yearMonthDay, minDate: "2021-08-25")
         self.present(picker, animated: true, completion: nil)
         picker.pickedClosure =  { year, month, day, hour, mintue in
             print("\(year)年\(month)月\(day)日 \(hour):\(mintue)")
