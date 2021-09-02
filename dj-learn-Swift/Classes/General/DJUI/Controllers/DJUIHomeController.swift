@@ -55,7 +55,7 @@ class DJUIHomeController: DJViewController, UICollectionViewDelegate, UICollecti
     }
     
     // MARK:- 视图初始化
-    func configSubviews() {
+    override func configSubviews() {
         let layout = UICollectionViewFlowLayout.init()
         self.collectionView = UICollectionView.init(frame: CGRect.zero, collectionViewLayout: layout)
         self.collectionView.backgroundColor = UIColor.lightGray

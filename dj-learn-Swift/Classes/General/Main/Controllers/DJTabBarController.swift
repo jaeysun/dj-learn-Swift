@@ -14,7 +14,7 @@ class DJTabBarController: UITabBarController {
         
             self.tabBar.isTranslucent = false
             // UI
-            let uiHomeVC = DJFoundationController.init()
+            let uiHomeVC = DJLoginController.init()
             let uiNavC = DJNavigationController.init(rootViewController: uiHomeVC)
             self.addChild(controller: uiNavC, title: "UI", img: "ic_tabbar_ui_nor", selImg: "ic_tabbar_ui_sel")
             // 组件

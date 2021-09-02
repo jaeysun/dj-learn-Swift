@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B370C8226E07162000570E5 /* DJLoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B370C8126E07162000570E5 /* DJLoginController.swift */; };
 		4B42183A250F5E9B009BE5CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B421839250F5E9B009BE5CC /* AppDelegate.swift */; };
 		4B421841250F5E9B009BE5CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B42183F250F5E9B009BE5CC /* Main.storyboard */; };
 		4B421844250F5E9B009BE5CC /* dj_learn_Swift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4B421842250F5E9B009BE5CC /* dj_learn_Swift.xcdatamodeld */; };
@@ -66,6 +67,7 @@
 /* Begin PBXFileReference section */
 		2413D1CFDBC37D8AD22D7032 /* Pods-dj-learn-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dj-learn-Swift.debug.xcconfig"; path = "Target Support Files/Pods-dj-learn-Swift/Pods-dj-learn-Swift.debug.xcconfig"; sourceTree = "<group>"; };
 		2C059D2CD44919805E9C1204 /* Pods-dj-learn-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dj-learn-Swift.release.xcconfig"; path = "Target Support Files/Pods-dj-learn-Swift/Pods-dj-learn-Swift.release.xcconfig"; sourceTree = "<group>"; };
+		4B370C8126E07162000570E5 /* DJLoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJLoginController.swift; sourceTree = "<group>"; };
 		4B421836250F5E9B009BE5CC /* dj-learn-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dj-learn-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B421839250F5E9B009BE5CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4B421840250F5E9B009BE5CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -434,6 +436,7 @@
 				4B69B36026D32E940005E21E /* WPTimePickerController.swift */,
 				4BF9811726CAA466004FF545 /* RSBFController.swift */,
 				4BF9811926CAB06D004FF545 /* RSTableController.swift */,
+				4B370C8126E07162000570E5 /* DJLoginController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -712,6 +715,7 @@
 				4BC0C650251A45C10097040D /* DJAppUtil.swift in Sources */,
 				4B6AE1092519DBCD0056CAFC /* DJModel.swift in Sources */,
 				4B6AE1012519DB8A0056CAFC /* DJNavigationController.swift in Sources */,
+				4B370C8226E07162000570E5 /* DJLoginController.swift in Sources */,
 				4BBC4DAE26C15D8E008EFEB5 /* DJFunctionDemo.swift in Sources */,
 				4BD4E61126D4835B00D15AEA /* SJInputView.swift in Sources */,
 				4B6AE1112519DE400056CAFC /* DJModuleHomeController.swift in Sources */,
