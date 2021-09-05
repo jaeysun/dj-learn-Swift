@@ -33,6 +33,9 @@ class DJLoginController: DJViewController {
         // 用户名是否有效 -> 用户名提示语是否隐藏
         userNameVaild.bind(to: userNameTipLabel.rx.isHidden).disposed(by: disposeBag)
         
+        
+        
+        
         // 密码是否有效
         let pwdVaild = pwdField.rx.text.orEmpty.map { txt in
             txt.count >= 6

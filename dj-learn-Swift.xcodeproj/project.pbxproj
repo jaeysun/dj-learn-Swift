@@ -82,6 +82,11 @@
 		4B42185E250F5EA0009BE5CC /* dj_learn_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dj_learn_SwiftUITests.swift; sourceTree = "<group>"; };
 		4B421860250F5EA0009BE5CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B5CF65426C6197F004A8593 /* DJTimePickerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJTimePickerController.swift; sourceTree = "<group>"; };
+		4B683C6926E1C157009A6AD2 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		4B683C6B26E1CDED009A6AD2 /* AsyncSubject.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AsyncSubject.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		4B683C6C26E1CF07009A6AD2 /* PublishSubject.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = PublishSubject.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		4B683C6D26E1D1D8009A6AD2 /* ReplaySubject.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ReplaySubject.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		4B683C6E26E1EE26009A6AD2 /* BehaviorSubject.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = BehaviorSubject.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		4B69B36026D32E940005E21E /* WPTimePickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WPTimePickerController.swift; sourceTree = "<group>"; };
 		4B6AE0FD2519DB2F0056CAFC /* DJTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJTabBarController.swift; sourceTree = "<group>"; };
 		4B6AE1002519DB8A0056CAFC /* DJNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJNavigationController.swift; sourceTree = "<group>"; };
@@ -207,6 +212,17 @@
 			path = "dj-learn-SwiftUITests";
 			sourceTree = "<group>";
 		};
+		4B683C6A26E1CDD5009A6AD2 /* Playgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				4B683C6B26E1CDED009A6AD2 /* AsyncSubject.playground */,
+				4B683C6C26E1CF07009A6AD2 /* PublishSubject.playground */,
+				4B683C6D26E1D1D8009A6AD2 /* ReplaySubject.playground */,
+				4B683C6E26E1EE26009A6AD2 /* BehaviorSubject.playground */,
+			);
+			path = Playgrounds;
+			sourceTree = "<group>";
+		};
 		4B6AE0F72519DA190056CAFC /* General */ = {
 			isa = PBXGroup;
 			children = (
@@ -249,6 +265,7 @@
 				4B42184A250F5EA0009BE5CC /* Info.plist */,
 				4B42183F250F5E9B009BE5CC /* Main.storyboard */,
 				4B421839250F5E9B009BE5CC /* AppDelegate.swift */,
+				4B683C6926E1C157009A6AD2 /* MyPlayground.playground */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -444,6 +461,7 @@
 		4BF9811626CAA440004FF545 /* BaseFunction */ = {
 			isa = PBXGroup;
 			children = (
+				4B683C6A26E1CDD5009A6AD2 /* Playgrounds */,
 				4BF9811526CAA438004FF545 /* Controllers */,
 			);
 			path = BaseFunction;
