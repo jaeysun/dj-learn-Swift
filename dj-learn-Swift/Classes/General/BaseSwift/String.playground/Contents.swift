@@ -3,8 +3,6 @@ import UIKit
 // 1. 字符串字面量
 var greeting = "Hello, playground"
 
-
-
 // 2.多行字符串
 let quotation = """
 The White Rabbit put on his spectacles.  "Where shall I begin,
@@ -50,6 +48,10 @@ let newString = String(beginning)
 for index in 0..<greeting.count {
     let charIndex = greeting.index(greeting.startIndex, offsetBy: index)
     print(greeting[charIndex])
+}
+
+for (index, value) in greeting.enumerated() {
+    print("index \(index) is \(value)")
 }
 
 // 6.3 插入字符串
