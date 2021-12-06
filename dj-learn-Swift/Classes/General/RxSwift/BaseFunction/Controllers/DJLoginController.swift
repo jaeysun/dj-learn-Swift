@@ -12,30 +12,32 @@ import RxCocoa
 
 class DJLoginController: DJViewController {
         
+    let backgrounImageView = UIImageView()
     let userNameField = UITextField()
     let userNameTipLabel = UILabel()
     let pwdField = UITextField()
     let pwdTipLael = UILabel()
     let loginButton = UIButton(type: .custom)
     
+    var image: Observable<UIImage>!
+    
     var event: Signal<Void>?
     var event1: Driver<Void>?
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         // 用户名是否有效
         let userNameVaild = userNameField.rx.text.orEmpty.map { txt in
-            txt.count >= 5
+            return txt.count > 6
         }.share(replay: 1)
         
         // 用户名是否有效 -> 密码输入框是否可用
         userNameVaild.bind(to: pwdField.rx.isEnabled).disposed(by: disposeBag)
+        
         // 用户名是否有效 -> 用户名提示语是否隐藏
         userNameVaild.bind(to: userNameTipLabel.rx.isHidden).disposed(by: disposeBag)
-        
-        
-        
-        
+                
         // 密码是否有效
         let pwdVaild = pwdField.rx.text.orEmpty.map { txt in
             txt.count >= 6
@@ -51,27 +53,13 @@ class DJLoginController: DJViewController {
             { $0 && $1 } // 取用户名和密码同时有效
             .share(replay: 1)
         everythingValid.bind(to: loginButton.rx.isEnabled).disposed(by: disposeBag)
-        
-        let state: Driver<String?> = self.userNameField.rx.text.asDriver()
-        let observer = userNameTipLabel.rx.text
-        state.drive(observer)
-        
-        let newObserver = pwdTipLael.rx.text
-        state.map { $0?.count.description }.drive(newObserver)
-        
-        loginButton.addTarget(self, action: #selector(loginButtonAction), for: .touchUpInside)
-        event1 = loginButton.rx.tap.asDriver()
-//        event = loginButton.rx.tap.asSignal()
-        let observer1: () -> Void = { self.showAlert("弹出提示框1") }
-//        event!.emit(onNext: observer1)
-        event1!.drive(onNext: observer1)
-        
+
     }
     
     @objc func loginButtonAction() {
-        let newObserver1: () -> Void = { self.showAlert("弹出提示框2") }
+//        let newObserver1: () -> Void = { self.showAlert("弹出提示框2") }
 //        event!.emit(onNext: newObserver1)
-        event1!.drive(onNext: newObserver1)
+//        event1!.drive(onNext: newObserver1)
 
     }
     
@@ -81,6 +69,11 @@ class DJLoginController: DJViewController {
     
     override func configSubviews() {
         super.configSubviews()
+        
+        self.view.addSubview(backgrounImageView)
+        backgrounImageView.snp.makeConstraints { make in
+            make.edges.equalTo(self.view)
+        }
         
         self.view.addSubview(userNameField)
         userNameField.layer.borderWidth = 1

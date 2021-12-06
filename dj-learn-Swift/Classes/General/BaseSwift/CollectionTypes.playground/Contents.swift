@@ -51,7 +51,6 @@ airports.updateValue("Beijing", forKey: "DUB")
 
 if airports.removeValue(forKey: "DUB") != nil {}
 
-
 // 遍历字典
 for (airportCode, airportName) in airports {
     print("\(airportCode): \(airportName)")

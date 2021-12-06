@@ -86,6 +86,7 @@
 		4B42185E250F5EA0009BE5CC /* dj_learn_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dj_learn_SwiftUITests.swift; sourceTree = "<group>"; };
 		4B421860250F5EA0009BE5CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B5CF65426C6197F004A8593 /* DJTimePickerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJTimePickerController.swift; sourceTree = "<group>"; };
+		4B675C7D2754A7D4007790E0 /* Scheduler.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Scheduler.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		4B683C6926E1C157009A6AD2 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		4B683C6B26E1CDED009A6AD2 /* AsyncSubject.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AsyncSubject.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		4B683C6C26E1CF07009A6AD2 /* PublishSubject.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = PublishSubject.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -236,6 +237,7 @@
 				4B683C6C26E1CF07009A6AD2 /* PublishSubject.playground */,
 				4B683C6D26E1D1D8009A6AD2 /* ReplaySubject.playground */,
 				4B683C6E26E1EE26009A6AD2 /* BehaviorSubject.playground */,
+				4B675C7D2754A7D4007790E0 /* Scheduler.playground */,
 			);
 			path = Playgrounds;
 			sourceTree = "<group>";

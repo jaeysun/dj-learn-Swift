@@ -1,7 +1,6 @@
 import UIKit
 
 // 1.存储属性
-
 // 2.计算属性
 // 2.1 属性的setter 和 getter 方法，建议计算属性重写
 class Person {
@@ -27,6 +26,7 @@ class StepCounter {
         }
     }
 }
+
 let stepCounter = StepCounter()
 stepCounter.totalSteps = 200
 // About to set totalSteps to 200

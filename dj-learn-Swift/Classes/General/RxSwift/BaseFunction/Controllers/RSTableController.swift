@@ -34,8 +34,8 @@ class RSTableController: UIViewController {
         tableView.rx.itemSelected.subscribe { indexPath in
             print(indexPath.row)
         }.disposed(by: disposeBag)
-        
-        
     }
+    
+    
     
 }
