@@ -15,19 +15,16 @@ subject.subscribe {
 
 subject.onNext("🐶")
 subject.onNext("🐱")
+subject.subscribe {
+    print("Subscription: 2 Event:", $0)
+  }.disposed(by: disposeBag)
+
 subject.onNext("🐹")
 
-subject.onError(NSError(domain: "error", code: -999, userInfo: ["msg":"error msg"]))
+//subject.onError(NSError(domain: "error", code: -999, userInfo: ["msg":"error msg"]))
 
 subject.onCompleted()
 
-let result = (38.527 * 5 - 51.75) / 4
-
-// Observable  可观察序列
-// Observer    观察者
-// Operator    操作符
-// Disposable  可被清除的资源
-// Scheduler   调度器
 
 
 

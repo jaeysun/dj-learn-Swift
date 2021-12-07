@@ -16,6 +16,7 @@ subject
   .subscribe { print("Subscription: 1 Event:", $0) }
   .disposed(by: disposeBag)
 
+subject.onNext("🦁")
 subject.onNext("🐱")
 
 subject

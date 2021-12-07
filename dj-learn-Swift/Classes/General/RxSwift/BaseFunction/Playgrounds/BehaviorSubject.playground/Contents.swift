@@ -2,10 +2,9 @@ import UIKit
 import RxSwift
 import RxCocoa
 
-// ReplaySubject 将对观察者发送全部的元素，无论观察者是何时进行订阅的。
+// 当观察者对 BehaviorSubject 进行订阅时，它会将源 Observable 中最新的元素发送出来（如果不存在最新的元素，就发出默认元素）。然后将随后产生的元素发送出来。
 
 let disposeBag = DisposeBag()
-
 let subject = BehaviorSubject(value: "🔴")
 
 subject
