@@ -27,6 +27,8 @@
 		4B6AE1152519DECD0056CAFC /* DJOthersHomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6AE1142519DECD0056CAFC /* DJOthersHomeController.swift */; };
 		4B6AE11A2519E3B20056CAFC /* DJColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6AE1192519E3B20056CAFC /* DJColorExtension.swift */; };
 		4B6AE11D2519E7170056CAFC /* DJImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6AE11C2519E7170056CAFC /* DJImageExtension.swift */; };
+		4B96671E27609DE5005B2FB6 /* RXImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B96671D27609DE5005B2FB6 /* RXImagePickerController.swift */; };
+		4B9667212760ACC0005B2FB6 /* UIImagePickerController+RxCreate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9667202760ACC0005B2FB6 /* UIImagePickerController+RxCreate.swift */; };
 		4BB7761025209626004D7C0B /* DJUILabelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB7760F25209626004D7C0B /* DJUILabelController.swift */; };
 		4BBC4DAE26C15D8E008EFEB5 /* DJFunctionDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBC4DAD26C15D8E008EFEB5 /* DJFunctionDemo.swift */; };
 		4BBC4DB026C16895008EFEB5 /* DJClosureDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBC4DAF26C16895008EFEB5 /* DJClosureDemo.swift */; };
@@ -37,6 +39,7 @@
 		4BC0C654251A47CF0097040D /* DJMenuItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC0C653251A47CF0097040D /* DJMenuItemModel.swift */; };
 		4BD4E61126D4835B00D15AEA /* SJInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD4E61026D4835B00D15AEA /* SJInputView.swift */; };
 		4BD8CB5026C5277100E01EF6 /* DJSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD8CB4F26C5277100E01EF6 /* DJSwitch.swift */; };
+		4BF0F1282760B45D00371AF0 /* UIImagePickerController+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF0F1272760B45D00371AF0 /* UIImagePickerController+Rx.swift */; };
 		4BF7A14B26C2BB9200D13CFE /* DJClassInheritDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF7A14A26C2BB9200D13CFE /* DJClassInheritDemo.swift */; };
 		4BF870E826C01B8B0079AB09 /* DJFoundationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF870E726C01B8B0079AB09 /* DJFoundationController.swift */; };
 		4BF870EA26C01BA30079AB09 /* DJOptionalDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF870E926C01BA30079AB09 /* DJOptionalDemo.swift */; };
@@ -103,6 +106,11 @@
 		4B6AE1142519DECD0056CAFC /* DJOthersHomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJOthersHomeController.swift; sourceTree = "<group>"; };
 		4B6AE1192519E3B20056CAFC /* DJColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJColorExtension.swift; sourceTree = "<group>"; };
 		4B6AE11C2519E7170056CAFC /* DJImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJImageExtension.swift; sourceTree = "<group>"; };
+		4B96671327605DF0005B2FB6 /* Disposable.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Disposable.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		4B96671427605E5A005B2FB6 /* DisposeBag.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = DisposeBag.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		4B96671527605F26005B2FB6 /* takeUntil.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = takeUntil.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		4B96671D27609DE5005B2FB6 /* RXImagePickerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RXImagePickerController.swift; sourceTree = "<group>"; };
+		4B9667202760ACC0005B2FB6 /* UIImagePickerController+RxCreate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImagePickerController+RxCreate.swift"; sourceTree = "<group>"; };
 		4BA4C18326E9D7B400693522 /* Initialization.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Initialization.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		4BB7760F25209626004D7C0B /* DJUILabelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJUILabelController.swift; sourceTree = "<group>"; };
 		4BBC4DAD26C15D8E008EFEB5 /* DJFunctionDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJFunctionDemo.swift; sourceTree = "<group>"; };
@@ -115,6 +123,7 @@
 		4BC0C656251A48A60097040D /* DJApp.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJApp.pch; sourceTree = "<group>"; };
 		4BD4E61026D4835B00D15AEA /* SJInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SJInputView.swift; sourceTree = "<group>"; };
 		4BD8CB4F26C5277100E01EF6 /* DJSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJSwitch.swift; sourceTree = "<group>"; };
+		4BF0F1272760B45D00371AF0 /* UIImagePickerController+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImagePickerController+Rx.swift"; sourceTree = "<group>"; };
 		4BF7A14A26C2BB9200D13CFE /* DJClassInheritDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJClassInheritDemo.swift; sourceTree = "<group>"; };
 		4BF870E726C01B8B0079AB09 /* DJFoundationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJFoundationController.swift; sourceTree = "<group>"; };
 		4BF870E926C01BA30079AB09 /* DJOptionalDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJOptionalDemo.swift; sourceTree = "<group>"; };
@@ -230,7 +239,7 @@
 			path = "dj-learn-SwiftUITests";
 			sourceTree = "<group>";
 		};
-		4B683C6A26E1CDD5009A6AD2 /* Playgrounds */ = {
+		4B683C6A26E1CDD5009A6AD2 /* Subjects */ = {
 			isa = PBXGroup;
 			children = (
 				4B683C6B26E1CDED009A6AD2 /* AsyncSubject.playground */,
@@ -239,7 +248,7 @@
 				4B683C6E26E1EE26009A6AD2 /* BehaviorSubject.playground */,
 				4B675C7D2754A7D4007790E0 /* Scheduler.playground */,
 			);
-			path = Playgrounds;
+			path = Subjects;
 			sourceTree = "<group>";
 		};
 		4B6AE0F72519DA190056CAFC /* General */ = {
@@ -397,6 +406,33 @@
 			path = Extension;
 			sourceTree = "<group>";
 		};
+		4B96671227605DCF005B2FB6 /* Disposable */ = {
+			isa = PBXGroup;
+			children = (
+				4B96671427605E5A005B2FB6 /* DisposeBag.playground */,
+				4B96671327605DF0005B2FB6 /* Disposable.playground */,
+				4B96671527605F26005B2FB6 /* takeUntil.playground */,
+			);
+			path = Disposable;
+			sourceTree = "<group>";
+		};
+		4B966716276061DA005B2FB6 /* Schedulers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Schedulers;
+			sourceTree = "<group>";
+		};
+		4B96671B27609DAC005B2FB6 /* ImagePickerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4B96671D27609DE5005B2FB6 /* RXImagePickerController.swift */,
+				4B9667202760ACC0005B2FB6 /* UIImagePickerController+RxCreate.swift */,
+				4BF0F1272760B45D00371AF0 /* UIImagePickerController+Rx.swift */,
+			);
+			path = ImagePickerDemo;
+			sourceTree = "<group>";
+		};
 		4BC0C64C251A45950097040D /* Utils */ = {
 			isa = PBXGroup;
 			children = (
@@ -462,6 +498,7 @@
 		4BF9811426CAA427004FF545 /* RxSwift */ = {
 			isa = PBXGroup;
 			children = (
+				4B96671B27609DAC005B2FB6 /* ImagePickerDemo */,
 				4BF9811626CAA440004FF545 /* BaseFunction */,
 			);
 			path = RxSwift;
@@ -481,7 +518,9 @@
 		4BF9811626CAA440004FF545 /* BaseFunction */ = {
 			isa = PBXGroup;
 			children = (
-				4B683C6A26E1CDD5009A6AD2 /* Playgrounds */,
+				4B966716276061DA005B2FB6 /* Schedulers */,
+				4B96671227605DCF005B2FB6 /* Disposable */,
+				4B683C6A26E1CDD5009A6AD2 /* Subjects */,
 				4BF9811526CAA438004FF545 /* Controllers */,
 			);
 			path = BaseFunction;
@@ -742,13 +781,16 @@
 				4BF7A14B26C2BB9200D13CFE /* DJClassInheritDemo.swift in Sources */,
 				4BF9811826CAA466004FF545 /* RSBFController.swift in Sources */,
 				4B6AE0FE2519DB2F0056CAFC /* DJTabBarController.swift in Sources */,
+				4B9667212760ACC0005B2FB6 /* UIImagePickerController+RxCreate.swift in Sources */,
 				4BF870EA26C01BA30079AB09 /* DJOptionalDemo.swift in Sources */,
 				4B6AE11A2519E3B20056CAFC /* DJColorExtension.swift in Sources */,
+				4B96671E27609DE5005B2FB6 /* RXImagePickerController.swift in Sources */,
 				4BBC4DB026C16895008EFEB5 /* DJClosureDemo.swift in Sources */,
 				4BC0C64E251A45B70097040D /* DJAppThemUtil.swift in Sources */,
 				4BD8CB5026C5277100E01EF6 /* DJSwitch.swift in Sources */,
 				4B69B36126D32E940005E21E /* WPTimePickerController.swift in Sources */,
 				4B6AE11D2519E7170056CAFC /* DJImageExtension.swift in Sources */,
+				4BF0F1282760B45D00371AF0 /* UIImagePickerController+Rx.swift in Sources */,
 				4BB7761025209626004D7C0B /* DJUILabelController.swift in Sources */,
 				4BC0C650251A45C10097040D /* DJAppUtil.swift in Sources */,
 				4B6AE1092519DBCD0056CAFC /* DJModel.swift in Sources */,
