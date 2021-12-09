@@ -427,7 +427,6 @@
 			isa = PBXGroup;
 			children = (
 				4B96671D27609DE5005B2FB6 /* RXImagePickerController.swift */,
-				4B9667202760ACC0005B2FB6 /* UIImagePickerController+RxCreate.swift */,
 				4BF0F1272760B45D00371AF0 /* UIImagePickerController+Rx.swift */,
 			);
 			path = ImagePickerDemo;
@@ -518,6 +517,7 @@
 		4BF9811626CAA440004FF545 /* BaseFunction */ = {
 			isa = PBXGroup;
 			children = (
+				4B9667202760ACC0005B2FB6 /* UIImagePickerController+RxCreate.swift */,
 				4B966716276061DA005B2FB6 /* Schedulers */,
 				4B96671227605DCF005B2FB6 /* Disposable */,
 				4B683C6A26E1CDD5009A6AD2 /* Subjects */,

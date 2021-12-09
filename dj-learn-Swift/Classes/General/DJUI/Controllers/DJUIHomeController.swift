@@ -49,6 +49,11 @@ class DJUIHomeController: DJViewController, UICollectionViewDelegate, UICollecti
         case 0:
             let vc = DJUILabelController.init()
             self.navigationController?.pushViewController(vc, animated: true)
+            break
+        case 1:
+            let vc = RXImagePickerController.init()
+            self.navigationController?.pushViewController(vc, animated: true)
+            break
         default:
             return
         }
@@ -70,9 +75,12 @@ class DJUIHomeController: DJViewController, UICollectionViewDelegate, UICollecti
     }
     
     func configDatas() {
+        // UILabel
         let labelModel = DJMenuItemModel.init(title: "UILabel", imgName: "icon_uilabel")
+        // 图片选择器
+        let imagePickerModel = DJMenuItemModel.init(title: "UIImagePicker", imgName: "icon_uilabel")
         
-        menuList = [labelModel]
+        menuList = [labelModel, imagePickerModel]
         
     }
 }
