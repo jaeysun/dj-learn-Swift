@@ -10,7 +10,7 @@ import UIKit
 
 class DJUIHomeController: DJViewController, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     var collectionView: UICollectionView!
-    var menuList: Array<DJMenuItemModel>!
+    var menuList: Array<DJMenuItemModel>! = Array()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -54,6 +54,10 @@ class DJUIHomeController: DJViewController, UICollectionViewDelegate, UICollecti
             let vc = RXImagePickerController.init()
             self.navigationController?.pushViewController(vc, animated: true)
             break
+        case 2:
+            let vc = RXNumberController.init()
+            self.navigationController?.pushViewController(vc, animated: true)
+            break
         default:
             return
         }
@@ -77,10 +81,17 @@ class DJUIHomeController: DJViewController, UICollectionViewDelegate, UICollecti
     func configDatas() {
         // UILabel
         let labelModel = DJMenuItemModel.init(title: "UILabel", imgName: "icon_uilabel")
+        menuList.append(labelModel)
         // 图片选择器
         let imagePickerModel = DJMenuItemModel.init(title: "UIImagePicker", imgName: "icon_uilabel")
+        menuList.append(imagePickerModel)
+        // 加法
+        let numberModel = DJMenuItemModel.init(title: "Number", imgName: "icon_uilabel")
+        menuList.append(numberModel)
         
-        menuList = [labelModel, imagePickerModel]
-        
+        for index in 0...15 {
+            let itemModel = DJMenuItemModel.init(title: "Item:\(index)", imgName: "icon_uilabel")
+            menuList.append(itemModel)
+        }
     }
 }

@@ -41,5 +41,4 @@ class PLController: UIViewController {
 }
 
 let pl = PLController.init()
-
 PlaygroundPage.current.liveView = pl

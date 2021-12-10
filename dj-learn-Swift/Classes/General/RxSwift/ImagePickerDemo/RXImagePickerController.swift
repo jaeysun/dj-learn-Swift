@@ -19,9 +19,6 @@ class RXImagePickerController: DJViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        RxImagePickerDelegateProxy.register { RxImagePickerDelegateProxy(imagePicker: $0) }
-        
         // 按钮点击事件
         self.albumButton
             .rx.tap

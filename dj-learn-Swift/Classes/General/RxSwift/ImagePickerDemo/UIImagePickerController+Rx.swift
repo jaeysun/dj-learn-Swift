@@ -13,11 +13,10 @@ import RxCocoa
 import UIKit
 
 open class RxImagePickerDelegateProxy
-    : RxNavigationControllerDelegateProxy, UIImagePickerControllerDelegate {
+: RxNavigationControllerDelegateProxy, UIImagePickerControllerDelegate {
     public init(imagePicker: UIImagePickerController) {
         super.init(navigationController: imagePicker)
     }
-
 }
 
 func dismissViewController(_ viewController: UIViewController, animated: Bool) {
@@ -25,10 +24,8 @@ func dismissViewController(_ viewController: UIViewController, animated: Bool) {
         DispatchQueue.main.async {
             dismissViewController(viewController, animated: animated)
         }
-        
         return
     }
-    
     if viewController.presentingViewController != nil {
         viewController.dismiss(animated: animated, completion: nil)
     }
