@@ -43,5 +43,5 @@ flatMapObservable
 /*
  map 和 flatMap 区别
  1、 selector 不同
- 2、
+ 2、 子元素
  */

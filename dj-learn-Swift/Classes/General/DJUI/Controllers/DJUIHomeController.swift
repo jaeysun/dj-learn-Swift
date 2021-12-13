@@ -58,6 +58,10 @@ class DJUIHomeController: DJViewController, UICollectionViewDelegate, UICollecti
             let vc = RXNumberController.init()
             self.navigationController?.pushViewController(vc, animated: true)
             break
+        case 3:
+            let vc = RXSimpleValidController.init()
+            self.navigationController?.pushViewController(vc, animated: true)
+            break
         default:
             return
         }
@@ -83,12 +87,14 @@ class DJUIHomeController: DJViewController, UICollectionViewDelegate, UICollecti
         let labelModel = DJMenuItemModel.init(title: "UILabel", imgName: "icon_uilabel")
         menuList.append(labelModel)
         // 图片选择器
-        let imagePickerModel = DJMenuItemModel.init(title: "UIImagePicker", imgName: "icon_uilabel")
+        let imagePickerModel = DJMenuItemModel.init(title: "Image Picker", imgName: "icon_uilabel")
         menuList.append(imagePickerModel)
         // 加法
         let numberModel = DJMenuItemModel.init(title: "Number", imgName: "icon_uilabel")
         menuList.append(numberModel)
-        
+        // RxSwift 简单验证
+        let sampleVaildModel = DJMenuItemModel.init(title: "Sample Vaild", imgName: "icon_uilabel")
+        menuList.append(sampleVaildModel)
         for index in 0...15 {
             let itemModel = DJMenuItemModel.init(title: "Item:\(index)", imgName: "icon_uilabel")
             menuList.append(itemModel)

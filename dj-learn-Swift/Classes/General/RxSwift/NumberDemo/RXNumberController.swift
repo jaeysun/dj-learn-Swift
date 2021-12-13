@@ -22,6 +22,7 @@ class RXNumberController: DJViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        // combineLatest 操作符将多个 Observables 中最新的元素通过一个函数组合起来，然后将这个组合的结果发出来。这些源 Observables 中任何一个发出一个元素，他都会发出一个元素（前提是，这些 Observables 曾经发出过元素）。
         // 组合多个 Observable， 任何一个Observable发元素，组合后的Observable都将发出元素
         Observable.combineLatest(numberInput1.rx.text.orEmpty, numberInput2.rx.text.orEmpty, numberInput3.rx.text.orEmpty) {
             (Int($0) ?? 0) + (Int($1) ?? 0) + (Int($2) ?? 0)
@@ -101,3 +102,4 @@ class RXNumberController: DJViewController {
         }
     }
 }
+

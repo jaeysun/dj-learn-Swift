@@ -28,6 +28,7 @@
 		4B6AE11A2519E3B20056CAFC /* DJColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6AE1192519E3B20056CAFC /* DJColorExtension.swift */; };
 		4B6AE11D2519E7170056CAFC /* DJImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6AE11C2519E7170056CAFC /* DJImageExtension.swift */; };
 		4B96671E27609DE5005B2FB6 /* RXImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B96671D27609DE5005B2FB6 /* RXImagePickerController.swift */; };
+		4B994E952766E97400DD2114 /* RXSimpleValidController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B994E942766E97400DD2114 /* RXSimpleValidController.swift */; };
 		4BB3E83D2763425F00A51AAC /* RXNumberController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB3E83C2763425F00A51AAC /* RXNumberController.swift */; };
 		4BB7761025209626004D7C0B /* DJUILabelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB7760F25209626004D7C0B /* DJUILabelController.swift */; };
 		4BBC4DAE26C15D8E008EFEB5 /* DJFunctionDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBC4DAD26C15D8E008EFEB5 /* DJFunctionDemo.swift */; };
@@ -110,6 +111,7 @@
 		4B96671427605E5A005B2FB6 /* DisposeBag.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = DisposeBag.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		4B96671527605F26005B2FB6 /* takeUntil.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = takeUntil.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		4B96671D27609DE5005B2FB6 /* RXImagePickerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RXImagePickerController.swift; sourceTree = "<group>"; };
+		4B994E942766E97400DD2114 /* RXSimpleValidController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RXSimpleValidController.swift; sourceTree = "<group>"; };
 		4BA4C18326E9D7B400693522 /* Initialization.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Initialization.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		4BA964732762F1B800588DC2 /* Operator.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Operator.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		4BB3E83C2763425F00A51AAC /* RXNumberController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RXNumberController.swift; sourceTree = "<group>"; };
@@ -433,6 +435,14 @@
 			path = ImagePickerDemo;
 			sourceTree = "<group>";
 		};
+		4B994E932766E95600DD2114 /* SimpleValidation */ = {
+			isa = PBXGroup;
+			children = (
+				4B994E942766E97400DD2114 /* RXSimpleValidController.swift */,
+			);
+			path = SimpleValidation;
+			sourceTree = "<group>";
+		};
 		4BA964722762F1B800588DC2 /* Operator */ = {
 			isa = PBXGroup;
 			children = (
@@ -531,6 +541,7 @@
 		4BF9811426CAA427004FF545 /* RxSwift */ = {
 			isa = PBXGroup;
 			children = (
+				4B994E932766E95600DD2114 /* SimpleValidation */,
 				4BB3E83B2763422D00A51AAC /* NumberDemo */,
 				4BF9811526CAA438004FF545 /* Controllers */,
 				4B96671B27609DAC005B2FB6 /* ImagePickerDemo */,
@@ -815,6 +826,7 @@
 				4BF7A14B26C2BB9200D13CFE /* DJClassInheritDemo.swift in Sources */,
 				4BF9811826CAA466004FF545 /* RSBFController.swift in Sources */,
 				4B6AE0FE2519DB2F0056CAFC /* DJTabBarController.swift in Sources */,
+				4B994E952766E97400DD2114 /* RXSimpleValidController.swift in Sources */,
 				4BF870EA26C01BA30079AB09 /* DJOptionalDemo.swift in Sources */,
 				4B6AE11A2519E3B20056CAFC /* DJColorExtension.swift in Sources */,
 				4B96671E27609DE5005B2FB6 /* RXImagePickerController.swift in Sources */,
