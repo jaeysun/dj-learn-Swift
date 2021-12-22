@@ -62,6 +62,14 @@ class DJUIHomeController: DJViewController, UICollectionViewDelegate, UICollecti
             let vc = RXSimpleValidController.init()
             self.navigationController?.pushViewController(vc, animated: true)
             break
+        case 4:
+            let vc = RXSimpleTableController.init()
+            self.navigationController?.pushViewController(vc, animated: true)
+            break
+        case 5:
+            let vc = RXGroupTableController.init()
+            self.navigationController?.pushViewController(vc, animated: true)
+            break
         default:
             return
         }
@@ -95,6 +103,13 @@ class DJUIHomeController: DJViewController, UICollectionViewDelegate, UICollecti
         // RxSwift 简单验证
         let sampleVaildModel = DJMenuItemModel.init(title: "Sample Vaild", imgName: "icon_uilabel")
         menuList.append(sampleVaildModel)
+        // RxSwift TableView
+        let sampleTableModel = DJMenuItemModel.init(title: "Sample TaleView", imgName: "icon_uilabel")
+        menuList.append(sampleTableModel)
+        // RxSwift TableView
+        let groupTableModel = DJMenuItemModel.init(title: "Group TaleView", imgName: "icon_uilabel")
+        menuList.append(groupTableModel)
+        
         for index in 0...15 {
             let itemModel = DJMenuItemModel.init(title: "Item:\(index)", imgName: "icon_uilabel")
             menuList.append(itemModel)

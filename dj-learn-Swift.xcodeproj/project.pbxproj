@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B15B4A8277015A500620781 /* RXSimpleTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B15B4A7277015A500620781 /* RXSimpleTableController.swift */; };
+		4B15B4AA277026F500620781 /* RXGroupTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B15B4A9277026F500620781 /* RXGroupTableController.swift */; };
+		4B15B4AC27702CB700620781 /* RXTableViewSectionedDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B15B4AB27702CB700620781 /* RXTableViewSectionedDataSource.swift */; };
+		4B15B4AE27702D4700620781 /* RXSectionModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B15B4AD27702D4700620781 /* RXSectionModelType.swift */; };
+		4B15B4B02770596B00620781 /* RxTableViewSectionedReloadDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B15B4AF2770596B00620781 /* RxTableViewSectionedReloadDataSource.swift */; };
+		4B15B4B227705DA500620781 /* RxSectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B15B4B127705DA500620781 /* RxSectionModel.swift */; };
 		4B370C8226E07162000570E5 /* DJLoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B370C8126E07162000570E5 /* DJLoginController.swift */; };
 		4B42183A250F5E9B009BE5CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B421839250F5E9B009BE5CC /* AppDelegate.swift */; };
 		4B421841250F5E9B009BE5CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B42183F250F5E9B009BE5CC /* Main.storyboard */; };
@@ -72,6 +78,12 @@
 		2413D1CFDBC37D8AD22D7032 /* Pods-dj-learn-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dj-learn-Swift.debug.xcconfig"; path = "Target Support Files/Pods-dj-learn-Swift/Pods-dj-learn-Swift.debug.xcconfig"; sourceTree = "<group>"; };
 		2C059D2CD44919805E9C1204 /* Pods-dj-learn-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dj-learn-Swift.release.xcconfig"; path = "Target Support Files/Pods-dj-learn-Swift/Pods-dj-learn-Swift.release.xcconfig"; sourceTree = "<group>"; };
 		4B1572E626E75F94003690B2 /* String.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = String.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		4B15B4A7277015A500620781 /* RXSimpleTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RXSimpleTableController.swift; sourceTree = "<group>"; };
+		4B15B4A9277026F500620781 /* RXGroupTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RXGroupTableController.swift; sourceTree = "<group>"; };
+		4B15B4AB27702CB700620781 /* RXTableViewSectionedDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RXTableViewSectionedDataSource.swift; sourceTree = "<group>"; };
+		4B15B4AD27702D4700620781 /* RXSectionModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RXSectionModelType.swift; sourceTree = "<group>"; };
+		4B15B4AF2770596B00620781 /* RxTableViewSectionedReloadDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxTableViewSectionedReloadDataSource.swift; sourceTree = "<group>"; };
+		4B15B4B127705DA500620781 /* RxSectionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSectionModel.swift; sourceTree = "<group>"; };
 		4B370C8126E07162000570E5 /* DJLoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJLoginController.swift; sourceTree = "<group>"; };
 		4B3E9DFF26E846B600B32677 /* CollectionTypes.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CollectionTypes.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		4B3E9E0026E857D000B32677 /* ControlFlow.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ControlFlow.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -192,6 +204,19 @@
 				4BA4C18326E9D7B400693522 /* Initialization.playground */,
 			);
 			path = BaseSwift;
+			sourceTree = "<group>";
+		};
+		4B15B4A62770156100620781 /* SimpleTableView */ = {
+			isa = PBXGroup;
+			children = (
+				4B15B4A7277015A500620781 /* RXSimpleTableController.swift */,
+				4B15B4A9277026F500620781 /* RXGroupTableController.swift */,
+				4B15B4AD27702D4700620781 /* RXSectionModelType.swift */,
+				4B15B4AB27702CB700620781 /* RXTableViewSectionedDataSource.swift */,
+				4B15B4AF2770596B00620781 /* RxTableViewSectionedReloadDataSource.swift */,
+				4B15B4B127705DA500620781 /* RxSectionModel.swift */,
+			);
+			path = SimpleTableView;
 			sourceTree = "<group>";
 		};
 		4B42182D250F5E9B009BE5CC = {
@@ -541,6 +566,7 @@
 		4BF9811426CAA427004FF545 /* RxSwift */ = {
 			isa = PBXGroup;
 			children = (
+				4B15B4A62770156100620781 /* SimpleTableView */,
 				4B994E932766E95600DD2114 /* SimpleValidation */,
 				4BB3E83B2763422D00A51AAC /* NumberDemo */,
 				4BF9811526CAA438004FF545 /* Controllers */,
@@ -824,6 +850,7 @@
 				4B6AE1062519DBBB0056CAFC /* DJView.swift in Sources */,
 				4BC0C652251A45CC0097040D /* DJDataUtil.swift in Sources */,
 				4BF7A14B26C2BB9200D13CFE /* DJClassInheritDemo.swift in Sources */,
+				4B15B4AC27702CB700620781 /* RXTableViewSectionedDataSource.swift in Sources */,
 				4BF9811826CAA466004FF545 /* RSBFController.swift in Sources */,
 				4B6AE0FE2519DB2F0056CAFC /* DJTabBarController.swift in Sources */,
 				4B994E952766E97400DD2114 /* RXSimpleValidController.swift in Sources */,
@@ -831,6 +858,7 @@
 				4B6AE11A2519E3B20056CAFC /* DJColorExtension.swift in Sources */,
 				4B96671E27609DE5005B2FB6 /* RXImagePickerController.swift in Sources */,
 				4BBC4DB026C16895008EFEB5 /* DJClosureDemo.swift in Sources */,
+				4B15B4A8277015A500620781 /* RXSimpleTableController.swift in Sources */,
 				4BC0C64E251A45B70097040D /* DJAppThemUtil.swift in Sources */,
 				4BD8CB5026C5277100E01EF6 /* DJSwitch.swift in Sources */,
 				4B69B36126D32E940005E21E /* WPTimePickerController.swift in Sources */,
@@ -841,14 +869,18 @@
 				4B6AE1092519DBCD0056CAFC /* DJModel.swift in Sources */,
 				4B6AE1012519DB8A0056CAFC /* DJNavigationController.swift in Sources */,
 				4B370C8226E07162000570E5 /* DJLoginController.swift in Sources */,
+				4B15B4B227705DA500620781 /* RxSectionModel.swift in Sources */,
 				4BBC4DAE26C15D8E008EFEB5 /* DJFunctionDemo.swift in Sources */,
 				4BD4E61126D4835B00D15AEA /* SJInputView.swift in Sources */,
 				4BB3E83D2763425F00A51AAC /* RXNumberController.swift in Sources */,
 				4B6AE1112519DE400056CAFC /* DJModuleHomeController.swift in Sources */,
+				4B15B4AE27702D4700620781 /* RXSectionModelType.swift in Sources */,
 				4B6AE10D2519DC830056CAFC /* DJUIHomeController.swift in Sources */,
 				4B42183A250F5E9B009BE5CC /* AppDelegate.swift in Sources */,
 				4BC0C64A251A3FA00097040D /* DJMenuItemCell.swift in Sources */,
 				4B6AE1032519DBA40056CAFC /* DJViewController.swift in Sources */,
+				4B15B4AA277026F500620781 /* RXGroupTableController.swift in Sources */,
+				4B15B4B02770596B00620781 /* RxTableViewSectionedReloadDataSource.swift in Sources */,
 				4B6AE1152519DECD0056CAFC /* DJOthersHomeController.swift in Sources */,
 				4BC0C654251A47CF0097040D /* DJMenuItemModel.swift in Sources */,
 				4B421844250F5E9B009BE5CC /* dj_learn_Swift.xcdatamodeld in Sources */,
